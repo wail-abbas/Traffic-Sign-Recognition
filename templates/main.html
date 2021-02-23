@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Traffic Sign Recognition</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script type="text/javascript" src="/static/main.js"></script>  
+    <script class="jsbin" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  </head>
+  <body class="body">
+
+    <header class="header" >
+  
+      <h1> {{ title }} </h1>
+     
+      </header>
+
+      <form class="c1">
+
+      </form>
+      <form action="/result" class="form" >
+        <br>
+        <br>
+        <img id="blah" />
+        <input type='file' onchange="readURL(this);" name="img" value = "readURL(this);" accept=".png, .jpg, .jpeg">
+        <br>
+        <input type="submit" value="PREDICT" class="btn">
+      </form>
+  </body>
+</html>

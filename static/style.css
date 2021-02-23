@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  /* Style the header */
+  
+  
+  .header {
+    padding: 30px;
+    text-align: center;
+    font-size: 25px;
+    color:black;
+    height: 120px;
+    text-shadow: 2px 2px 0px white;
+  }
+  
+  .h2 {
+    margin: 16px;
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+  
+
+.c1 {
+  float: left;
+  width: 30%;
+  height: 650px;
+  text-align: center;
+  }
+
+  /* Style the form */
+  .form {
+    float: left;
+    padding: 12px 16px;
+    width: 40%;
+    background-color: #fcf8f8;
+    height: 710px;
+    text-align: center;
+    border: 35px solid red;
+    border-radius: 50%;
+  }
+  
+  /* Style the submit button */
+  .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 16px;
+    border: none;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    padding: 12px 16px;
+  }
+  
+  body {
+    background-image: url('/static/road.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+  }  
+
+img{
+  width:400px;
+  height: 400px;
+  margin-top: 40px;
+
+}
+input[type=file]{
+padding:10px;
+margin-bottom: 25px;
+
+
+}
+
