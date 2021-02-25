@@ -1,6 +1,6 @@
 # Traffic Sign Recognition with tensorflow:
 ## Objectives:
-#### The project aims to:
+#### This project aims to:
  
 * Build a model that can recognize the traffic signs.
 * Create a Front-end interface for image recognition.
